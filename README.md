@@ -40,6 +40,7 @@ ML Algorithm - **XG boost**(Implemented Binary classification on the data)
 Shuffle it randomly for better model training by reducing the bias.
 
 **Feature engineering and model training and testing using training data**
+
 8. Select the feature ‘Incidents’ and assign to variable ‘X’ and convert it to categorical data type.
 9. Select the label ‘Target’ and assign to variable ‘y’ and convert it to categorical data type.
 10. Split the data into training and testing sets 
@@ -48,6 +49,7 @@ Shuffle it randomly for better model training by reducing the bias.
 13. Calculate model’s accuracy and F1 score.
 
 **Predicting the labels for the test set**
+
 14. Predict the labels for the test set using the model trained.
 15. Merge the predicted labels with the test set.
 16. Drop the column ‘Incident’ from the test set.
