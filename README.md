@@ -20,12 +20,12 @@ The dataset contains electronic health records belonging to patients who have be
 3) Incident - This column describes which event occurred on the day.
 
 
-**Developed using: **
+Developed using: 
 ----------------
 1. Language - Python
 2. Libraries - pandas, scikit-learn, xgboost, hyperopt
 
-**Workflow**
+Workflow
 ---------
 ML Algorithm - **XG boost**(Implemented Binary classification on the data)
 
