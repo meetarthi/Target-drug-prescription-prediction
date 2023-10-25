@@ -38,3 +38,17 @@ ML Algorithm - **XG boost**(Implemented Binary classification on the data)
 6. Create a negative set dataframe with data where the patient doesn’t have Target drug in incident Or where patient has Target drug in incident, and more than 30 days difference with the previous incident.This dataframe would contain the Patient-Uid, Incident and target as the columns and the values in the target column is set to 0.
 7. Create a dataframe ‘train_csv’ by Concatenating the dataframes - Positive and negative set and
 Shuffle it randomly for better model training by reducing the bias.
+
+**Feature engineering and model training and testing using training data**
+8. Select the feature ‘Incidents’ and assign to variable ‘X’ and convert it to categorical data type.
+9. Select the label ‘Target’ and assign to variable ‘y’ and convert it to categorical data type.
+10. Split the data into training and testing sets 
+11. Initialize XGBoost classifier and specify hyperparameters for tuning. Fit the model to the training data and optimize hyperparameters using GridSearchCV.
+12. Make prediction on testing set using the trained model.
+13. Calculate model’s accuracy and F1 score.
+
+**Predicting the labels for the test set**
+14. Predict the labels for the test set using the model trained.
+15. Merge the predicted labels with the test set.
+16. Drop the column ‘Incident’ from the test set.
+17. Save the test set to csv format.
