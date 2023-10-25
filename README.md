@@ -1,4 +1,4 @@
-#Target-drug-prescription-prediction
+# Target-drug-prescription-prediction#
 
 Prescribing Drugs to patients for treating a specific condition or Disease is important for enhancing their health and livelihood. ‘Target Drug’ is a therapy focussed on alleviating the illness, without triggering or altering other bodily functions leading to side-effects. Target drug is administered to the patients in a certain pattern for better results and safety of the patient.
 
