@@ -23,7 +23,7 @@ The dataset contains electronic health records belonging to patients who have be
 Developed using: 
 ----------------
 1. Language - Python
-2. Libraries - pandas, scikit-learn, xgboost, hyperopt
+2. Libraries - pandas, scikit-learn, xgboost
 
 Workflow
 ---------
